@@ -14,6 +14,7 @@
   color: white;
   text-align: center;
   font-weight: bold;
+  z-index: 1;
 }
 
 .sidebar {
@@ -25,4 +26,8 @@
 .content {
   grid-area: content;
   padding: 1em;
+}
+
+.root {
+  display: flex
 }

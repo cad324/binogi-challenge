@@ -1,3 +1,23 @@
+# Important Notes - Clive
+
+The basic requirements of the assignments are satisfied:
+
+- The home page features a search bar which can be used to fetch items from the recipes API. It includes the label, image, and number of calories.
+- Results can be bookmarked using the bookmark icon. Bookmarked recipes will be coloured, and grey otherwise.
+- All bookmarked recipes can be seen in the 'Bookmarked Recipes' screen by clicking list item in the side bar.
+- The app uses Redux so that the recipe search results and bookmarks can be persisted between screens.
+
+Of course the app has a few problems given the time constraints. Here are some limitations and things I would fix given more time:
+- The side bar does not indicate what page we are currently on, by highlighting the list item of the current page for example. This in general is important.
+- The 'Learn More' button does not show any additional information, but this would open a modal or expand the card for example, to show the ingredients, cooking instructions, etc.
+- You cannot remove the bookmark currently.
+- All the information is gone when the app is refreshed. This could be fixed by storing information using localStorage, or a backend service of some kind.
+- Not entirely mobile responsive. This could be done by responsively changing the sidebar into a dropdown mobile menu.
+- Add pagination
+
+![Screenshot of Completed Challenge](crispy-chicken.png)
+![Screenshot of Bookmark Page](bookmarked.png)
+
 # Binogi React Code Challenge
 
 This code test involves the creation of a working React app using a 3rd party API. It’s designed to take 2-4 hours.
